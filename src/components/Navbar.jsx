@@ -129,7 +129,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <img
-              src="https://umaholidays.com/assets/images/logo/logo1.png"
+              src="https://travelinquiry.com.np/wp-content/uploads/2023/05/350085351_1057880828951325_4037736344644386584_n.jpg"
               alt="Uma holidays"
               className="h-12 md:h-16"
             />
