@@ -115,7 +115,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center mb-4 md:mb-0">
             <Phone size={20} className="mr-2" />
-            <span className="text-green-600 font-semibold">Questions? Call: +977-9860459806</span>
+            <span className="text-[#295da6] font-semibold">Questions? Call: +977-9860459806</span>
           </div>
           <div className="space-x-4">
             <button className="text-gray-600 hover:text-gray-800">REVIEWS</button>
@@ -141,8 +141,8 @@ const Navbar = () => {
 
             {/* Desktop menu */}
             <div className="hidden md:flex space-x-6">
-              <Link to="/" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">HOME</Link>
-              <Link to="/about" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">ABOUT US</Link>
+              <Link to="/" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">HOME</Link>
+              <Link to="/about" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">ABOUT US</Link>
 
               {/* Dropdown for Packages */}
               <div
@@ -150,7 +150,7 @@ const Navbar = () => {
                 onMouseEnter={openDropdown}
                 onClick={closeDropdown}
               >
-                <button className="text-gray-800 hover:text-green-600 font-semibold">
+                <button className="text-gray-800 hover:text-[#295da6] font-semibold">
                   PACKAGES
                 </button>
 
@@ -193,8 +193,8 @@ const Navbar = () => {
                 )}
               </div>
 
-              <Link to="/our-team" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">OUR TEAM</Link>
-              <Link to="/our-services" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">OUR SERVICES</Link>
+              <Link to="/our-team" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">OUR TEAM</Link>
+              <Link to="/our-services" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">OUR SERVICES</Link>
             </div>
 
             <div className="hidden md:block bg-green-500 rounded-full p-2">
@@ -206,8 +206,8 @@ const Navbar = () => {
           {isMenuOpen && (
             <div className="md:hidden">
               <div className="flex flex-col space-y-4 pb-4">
-                <Link to="/" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">HOME</Link>
-                <Link to="/about"  onMouseEnter={closeDropdown} className="text-gray-800 hover:text-green-600 font-semibold">ABOUT US</Link>
+                <Link to="/" onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">HOME</Link>
+                <Link to="/about"  onMouseEnter={closeDropdown} className="text-gray-800 hover:text-[#295da6] font-semibold">ABOUT US</Link>
                 {/* <Link to="/packages" className="text-gray-800 hover:text-green-600 font-semibold">PACKAGES</Link> */}
                 <div
                 className="relative"

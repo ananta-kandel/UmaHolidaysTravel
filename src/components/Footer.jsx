@@ -54,7 +54,7 @@ const Footer = () => {
     </div>
   </footer>
       <div className="bg-gray-800 text-white py-4 text-center">
-        <p className="font-bold">All Right Reserved@Uma Holidays</p>
+        <p className="font-bold">All Right Reserved@Travel Inquiry</p>
       </div>
       </>
   )

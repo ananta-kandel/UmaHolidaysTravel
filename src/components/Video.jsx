@@ -47,7 +47,7 @@ const VideoBackground = () => {
               key={type.id}
               className={`px-6 py-2 rounded-md transition-colors ${
                 selectedType === type.id
-                  ? 'bg-red-700 text-white'
+                  ? 'bg-[#295da6] text-white'
                   : 'bg-white text-gray-700 hover:bg-gray-100'
               }`}
               onClick={() => setSelectedType(type.id)}
@@ -105,7 +105,7 @@ const VideoBackground = () => {
             </div>
 
             {/* Search Button */}
-            <button className="bg-red-700 text-white px-6 py-2 rounded-md hover:bg-red-800 transition-colors">
+            <button className="bg-[#295da6] text-white px-6 py-2 rounded-md hover:bg-red-800 transition-colors">
               Search
             </button>
           </div>
